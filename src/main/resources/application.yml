@@ -1,0 +1,12 @@
+security:
+  oauth2:
+    client:
+      use-current-uri: false
+      clientId: ${CLIENT_ID}
+      clientSecret: ${CLIENT_SECRET}
+      accessTokenUri: ${AUTH_TOKEN_URL}
+      userAuthorizationUri: ${USER_AUTH_URL}
+      pre-established-redirect-uri: ${PRE_ESTABLISHED_REDIRECT_URI}
+      registered-redirect-uri: ${REGISTERED_REDIRECT_URI}
+    resource:
+      tokenInfoUri: ${TOKEN_INFO_URL}
